@@ -1,0 +1,75 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	margin: auto;
+	width: 100%;
+	max-width: 290px;
+	padding: 0px 2px;
+	text-align: center;
+	display: flex;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.countdown-amount {
+   	font-size: 18px;
+  	border-radius: 6px;
+  	color: rgb(51, 51, 51);
+  	font-family: "GothamPro";
+  	font-weight: 700;
+  	background-color: rgb(255, 255, 255);
+  	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.25),inset 0.5px 0.866px 0px 0px rgba(255, 255, 255, 0.2);
+  	display: block;
+  	width: 46px;
+  	height: 50px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.countdown-period {
+    display: block;
+	font-size: 6.507px;
+  	font-family: "GothamPro";
+  	color: rgb(153, 153, 153);
+  	text-transform: uppercase;
+  	text-align: center;
+  	margin-top: 5px;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}

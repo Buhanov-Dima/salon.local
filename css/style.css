@@ -336,3 +336,342 @@ header {position: relative; z-index: 100;}
 }
 
 .bg-paporotnik {background: url('/img/main/paporotnik.png') no-repeat left center; background-size: contain; position: absolute;width: 535px; height: 1060px;}
+
+
+.gradient-h {
+    font-size: 36px;
+    background: -webkit-linear-gradient(left, #e1047e 43%, #7e6b9d 72%, #3bb2b3);
+    background: -o-linear-gradient(left, #e1047e 43%, #7e6b9d 72%, #3bb2b3);
+    background: linear-gradient(to right, #e1047e 43%, #7e6b9d 72%, #3bb2b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #e1047e;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+}
+.wrap-4hands {
+  text-align: center;
+}
+
+.wrap-4hands {
+  margin-top: 80px;
+}
+.eyelashes {
+  margin-top: 160px;
+}
+.wrap-4hands p {
+  margin-top: 35px;
+}
+
+.wrap-4hands .gradient-h {
+  margin-top: 10px;
+}
+
+.bg-hands {
+  background: url('/img/main/bg-hands.jpg') no-repeat right top;
+  background-size: cover;
+  width: 100%;
+  height: 444px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#hands {position: relative;}
+
+.eye {
+  width: 30%;
+  text-align: center;
+  margin-top: 35px;
+  min-height: 350px;
+  position: relative;
+
+}
+.eye h5 {
+  font-size: 20px;
+  font-family: "GothamPro";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.eye p {
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+.eye .btn-tsp {
+  position: absolute;
+  width: 164px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.btn-tsp {
+  border-radius: 3px;
+  border: 1px solid rgb(230, 0, 126);
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  padding: 0 40px;
+  background: transparent;
+  line-height: 3;
+}
+
+.wrap-eye {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price.pink a{background-color: #e6007e;}
+.price.pink p {color: rgb(102, 102, 102);}
+
+.depil {
+  margin: 100px 0 50px;
+}
+.depil-p {
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bg-flowers {background: url('/img/main/bg-flower.png') no-repeat left; width: 100%; height: 795px; position: absolute; top: 250px;}
+.bg-flowers-1 {background: url('/img/main/bg-flower-1.png') no-repeat right; width: 100%; height: 500px;position: absolute; top: 665px;}
+.bg-legs {background: url('/img/main/legs.jpg') no-repeat right; width: 100%; height: 500px; position: absolute; bottom: 0;}
+
+
+
+.maki {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.maki .standart-h {
+  margin-bottom: 40px;
+}
+
+.maki p{
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  max-width: 545px;
+  margin: auto;
+}
+.maki-p p{
+  margin: 30px auto;
+  line-height: 1.4;
+}
+
+.maki-p-2 p{
+  font-weight: bold;
+  line-height: 1.8;
+}
+.maki-p-2 span {
+  font-weight: normal;
+  padding: 0 20px;
+}
+
+#maki {
+  position: relative;
+}
+
+
+.bg-sakura {
+  background: url(/img/main/sakura.jpg) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 762px;
+  height: 507px;
+}
+
+.bg-woman {
+  background: url(/img/main/bg-woman.jpg) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 540px;
+  height: 507px;
+}
+
+
+.wrap-konsul {
+  max-width: 555px;
+  text-align: center;
+}
+.standart-h-wh {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.standart-h-wh::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 8px;
+  background: url('/img/icons/wave-wh.png') no-repeat center;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  margin: auto;
+}
+
+#konsul {background: #36b7b4; padding: 90px 0 60px; position: relative;}
+
+.wrap-konsul p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 45px;
+}
+
+.wrap-konsul h4 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 55px;
+  margin-bottom: 5px;
+}
+
+.wrap-konsul .form-2 p{ 
+  margin-top: 0;
+  font-size: 12px;
+  font-family: "GothamPro";
+  color: rgba(255, 255, 255, 0.749);
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.f2-name, .f2-phone {
+  border-radius: 3px;
+  background-color: rgb(239, 239, 237);
+  border: none;
+  width: 165px;
+  height: 50px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.f2-phone {margin: 0 20px;}
+
+.bg-konsul-1 {
+  background: url('/img/main/bg-konsul-1.jpg') no-repeat left top;
+  background-size: cover;
+  width: 100%;
+  max-width: 690px;
+  height: 455px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bg-konsul-2 {
+  background: url('/img/main/bg-konsul-2.png') no-repeat left top;
+  background-size: cover;
+  width: 225px;
+  height: 400px;
+  position: absolute;
+  left: 506px;
+  bottom: 0;
+}
+
+
+#uslugi {
+  background: -webkit-linear-gradient(#ffffff 6%, #ff99d5 86%);
+  background: -o-linear-gradient(#ffffff 6%, #ff99d5 86%);
+  background: linear-gradient(#ffffff 6%, #ff99d5 86%);
+}
+
+.usluga {
+  text-align: center;
+  width: 30%;
+
+}
+.usluga h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  margin-bottom: 25px;
+}
+
+.usluga p{
+  font-size: 15px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 15px;
+}
+
+.usluga .maki-p-2 p{
+  margin-bottom: 0;
+}
+
+.usluga .btn-tsp {
+  margin: 20px 0 30px;
+}
+
+.wrap-uslugi .standart-h {
+  margin-bottom: 35px;
+}
+
+.uslugi {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+.uslugi::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 50%);
+  background: rgb(232, 152, 199);
+  left: 33%;
+  top: 10%;
+}
+.uslugi::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 50%);
+  background: rgb(232, 152, 199);
+  right: 33%;
+  top: 10%;
+}
+.wrap-uslugi, .wrap-hair {margin-top: 70px; margin-bottom: 50px;}
+
+.hair {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+}
+.hair .usluga {
+  width: 35%;
+}
+
+.usluga span:nth-child(4) {
+  color: rgb(230, 0, 126);
+}
+
+#vetka {
+  background: url('/img/main/vetka.png') no-repeat right center;
+  background-size: contain;
+  width: 431px;
+  height: 674px;
+  position: absolute;
+  right: 0;
+  top: 42%;
+}
+#vet {
+  position: relative;
+}

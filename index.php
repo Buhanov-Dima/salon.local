@@ -18,6 +18,41 @@
 <body>
 <div class="bg-1">
 	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#"><img src="/img/logo.png" alt=""></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">О нас<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Маникюр и педикюр</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Брови и ресницы</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Депиляция</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Макияж</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Парикмахерские услуги</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Уход за волосами</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Контакты</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -171,16 +206,24 @@
 				</div>
 				<div class="gallery-1">
 					<div class="wrap-gal">
-						<img src="/img/main/g-1.jpg" alt="">
+						<a href="/img/main/g-1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/main/g-1.jpg" alt="">
+						</a>
 					</div>
 					<div class="wrap-gal">
-						<img src="/img/main/g-2.jpg" alt="">
+						<a href="/img/main/g-2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+							<img src="/img/main/g-2.jpg" alt="">
+						</a>
 					</div>
 					<div class="wrap-gal">
-						<img src="/img/main/g-3.jpg" alt="">
+						<a href="/img/main/g-3.jpg" data-fancybox="gallery" data-caption="Caption #2">
+							<img src="/img/main/g-3.jpg" alt="">
+						</a>
 					</div>
 					<div class="wrap-gal">
-						<img src="/img/main/g-4.jpg" alt="">
+						<a href="/img/main/g-4.jpg" data-fancybox="gallery" data-caption="Caption #2">
+							<img src="/img/main/g-4.jpg" alt="">
+						</a>
 					</div>
 				</div>
 				<div class="price">
@@ -391,16 +434,24 @@
 					</div>
 					<div class="gallery-1">
 						<div class="wrap-gal">
-							<img src="/img/main/g-5.jpg" alt="">
+							<a href="/img/main/g-5.jpg" data-fancybox="gallery" data-caption="Caption #1">
+								<img src="/img/main/g-5.jpg" alt="">
+							</a>
 						</div>
 						<div class="wrap-gal">
-							<img src="/img/main/g-6.jpg" alt="">
+							<a href="/img/main/g-6.jpg" data-fancybox="gallery" data-caption="Caption #1">
+								<img src="/img/main/g-6.jpg" alt="">
+							</a>
 						</div>
 						<div class="wrap-gal">
-							<img src="/img/main/g-7.jpg" alt="">
+							<a href="/img/main/g-7.jpg" data-fancybox="gallery" data-caption="Caption #1">
+								<img src="/img/main/g-7.jpg" alt="">
+							</a>
 						</div>
 						<div class="wrap-gal">
-							<img src="/img/main/g-8.jpg" alt="">
+							<a href="/img/main/g-8.jpg" data-fancybox="gallery" data-caption="Caption #1">
+								<img src="/img/main/g-8.jpg" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="price pink">
@@ -563,34 +614,54 @@
 			<div class="col-xl-12">
 				<div class="main-gallery">
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 					<div class="g-item">
-						<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/1.jpg" alt="">
+						</a>
 					</div>
 				</div>
 			</div>

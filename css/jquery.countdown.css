@@ -15,6 +15,7 @@
 	padding: 0px 2px;
 	text-align: center;
 	display: flex;
+	flex-wrap: wrap;
 }
 .countdown-show1 .countdown-section {
 	width: 98%;

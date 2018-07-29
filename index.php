@@ -186,6 +186,12 @@
 				<div class="price">
 					<a href="#">Показать прайс-лист</a>
 					<p>Прайс-лист обновлялся 3 дня назад</p>
+					<div class="hidden-price">
+						<div class="price-1">
+							<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+							<span>(без использования режущих металлических инструментов)</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -402,19 +408,116 @@
 </section>
 
 
-<footer>
-	<div class="container">
+<section id="m-gallery">
+	<div class="container-fluid pdg-0">
 		<div class="row">
-			<div class="col-xl-7">
-				<div class="wrap-footer">
-
+			<div class="col-xl-12">
+				<div class="main-gallery">
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
+					<div class="g-item">
+						<img src="/img/gallery/1.jpg" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
 
+<section id="maps">
+	<div class="container-fluid pdg-0">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="wrap-maps">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.0826091035292!2d37.600681620095!3d55.78009637317948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a10adb92ce3%3A0x86d1b555a0928bdc!2z0JTRgNGD0LbQsdCw!5e0!3m2!1sru!2sru!4v1532854773652" width="100%" height="485" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="wrap-info-map">
+					<div class="info-map">
+						<div class="info">
+							<p><b>Москва, ул. Новослободская, 4</b></p>
+							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
+							<p><b>Режим работы:</b> 10.00 - 22.00</p>
+							<p><b>Телефон:</b> +7(499) 499 99 99</p>
+						</div>
+
+						<div class="info">
+							<p><b>Москва, ул. Новослободская, 4</b></p>
+							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
+							<p><b>Режим работы:</b> 10.00 - 22.00</p>
+							<p><b>Телефон:</b> +7(499) 499 99 99</p>
+						</div>
+
+						<div class="info">
+							<p><b>Москва, ул. Новослободская, 4</b></p>
+							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
+							<p><b>Режим работы:</b> 10.00 - 22.00</p>
+							<p><b>Телефон:</b> +7(499) 499 99 99</p>
+						</div>
+					</div>
+					<a href="#" class="btn-hidden">Показать все салоны на карте</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="wrap-footer">
+					<div class="logo-foo">
+						<img src="/img/logo.png" alt="">
+					</div>
+					<div class="social">
+						<p>Мы в Социальных сетях:</p>
+						<div class="soc-ico">
+							<a href="#"><img src="/img/icons/fb.png" alt=""></a>
+							<a href="#"><img src="/img/icons/ok.png" alt=""></a>
+							<a href="#"><img src="/img/icons/vk.png" alt=""></a>
+							<a href="#"><img src="/img/icons/tw.png" alt=""></a>
+							<a href="#"><img src="/img/icons/inst.png" alt=""></a>
+						</div>
+						<p>Политика конфиденциальности</p>
+					</div>
+					<div class="b1-phone">
+						<a href="#"><img src="/img/icons/watsapp.png" alt=""></a>
+						<a href="#"><img src="/img/icons/viber.png" alt=""></a>
+						<div class="phone">
+							<p> +7 (499) <b>499 99 99</b></p>
+							<span>Ежедневно с 10:00 до 20:00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

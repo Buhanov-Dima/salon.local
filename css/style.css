@@ -21,6 +21,7 @@ h3 {font-size: 30px;}
 h1, h2, h3, h4, h5 {}
 h1{}
 header {position: relative; z-index: 100;}
+.pdg-0 {padding: 0;}
 .mg-t-1 {margin-top: 1em;}
 .mg-t-2 {margin-top: 2em;}
 .mg-t-3 {margin-top: 3em;}
@@ -674,4 +675,113 @@ header {position: relative; z-index: 100;}
 }
 #vet {
   position: relative;
+}
+
+.hair .maki-p-2 {
+	margin-top: 20px;
+}
+
+.g-item {
+	width: 100%;
+	max-width: 375px;
+	height: 255px;
+}
+.main-gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#m-gallery, #maps {overflow: hidden; position: relative;}
+
+
+.info {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  margin: 0 30px;
+  padding: 47px 44px;
+  margin-bottom: 120px;
+}
+
+.info p {
+  font-size: 17px;
+  color: rgb(51, 51, 51);
+  line-height: 1.529;
+  text-align: center;
+}
+.info-map {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-hidden {
+	border-radius: 3px;
+    background-color: rgb(230, 0, 126);
+    height: 50px;
+    width: 295px;
+    border: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: auto;
+  	line-height: 3.4;
+  	text-align: center;
+}
+
+footer {
+	background: #333333;
+	padding: 35px 0 15px;
+}
+
+.wrap-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-foo {max-width: 86px;}
+.logo-foo img {width: 100%;}
+.social {text-align: center; margin-left: 200px;}
+.soc-ico a{margin: 0 8px;}
+.social p{
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+}
+.social p:last-child {
+	color: rgb(102, 102, 102);
+	font-size: 12px;
+}
+
+.price-1 p:first-child{
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.price-1 span{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+}
+.price-1 p:nth-child {
+
+}
+.price-1 {
+	max-width: 300px;
+}
+.hidden-price {
+	background-color: #333333;
 }

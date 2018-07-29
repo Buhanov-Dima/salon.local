@@ -58,14 +58,14 @@
 				<div class="col-xl-12">
 					<div class="wrap-menu">
 						<div class="menu">
-							<a href="#">О нас</a>
-							<a href="#">Маникюр и педикюр</a>
-							<a href="#">Брови и ресницы</a>
-							<a href="#">Депиляция</a>
-							<a href="#">Макияж</a>
-							<a href="#">Парикмахерские услуги</a>
-							<a href="#">Уход за волосами</a>
-							<a href="#">Контакты</a>
+							<a href="#about">О нас</a>
+							<a href="#bg-pink">Маникюр и педикюр</a>
+							<a href="#brovi">Брови и ресницы</a>
+							<a href="#depi">Депиляция</a>
+							<a href="#maki">Макияж</a>
+							<a href="#vet">Парикмахерские услуги</a>
+							<a href="#uhod">Уход за волосами</a>
+							<a href="#maps">Контакты</a>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 </div>
 
 
-<section>
+<section id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
@@ -177,7 +177,7 @@
 					<div class="timer">
 						<div id="defaultCountdown"></div>
 					</div>
-					<button class="main-btn">Записаться по АКЦИИ</button>
+					<button data-fancybox data-src="#popup" href="javascript:;" class="main-btn">Записаться по АКЦИИ</button>
 					<p>«Нажимая на кнопку, вы даете согласие <br>на обработку персональных данных <br>и соглашаетесь c политикой <br>конфиденциальности»</p>
 				</div>
 			</div>
@@ -185,7 +185,7 @@
 	</div>
 </section>
 
-<section class="bg-pink">
+<section id="bg-pink" class="bg-pink">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
@@ -195,13 +195,13 @@
 						<h4>Маникюр</h4>
 						<p>Как ни крути, практически любое общение<br> начинается с оценки внешности - в частности<br> с оценки чистоты рук, красоты и ухоженности ногтей.</p>
 						<p>Маникюр может быть ярким и броским,<br> нежным и деликатным, словом - любым.<br> Однако главная его ценность заключается<br> в обработке ногтей и самих пальцев.</p>
-						<button class="btn-ped">Записаться</button>
+						<button data-fancybox data-src="#popup" href="javascript:;" class="btn-ped">Записаться</button>
 					</div>
 					<div class="manikyr">
 						<h4>Педикюр</h4>
 						<p>Педикюр - это не только красивое<br> и эстетичное покрытие ногтей лаком.<br> Педикюр позволяет решить проблемы,<br> связанные с вросшими ногтями,<br> натоптышами, мазолями и трещинами.</p>
 						<p>Поэтому если Вы хотите здоровые, красивые<br> и ухоженные ножки, мы ждем Вас на педикюр.</p>
-						<button class="btn-ped">Записаться</button>
+						<button data-fancybox data-src="#popup" href="javascript:;" class="btn-ped">Записаться</button>
 					</div>
 				</div>
 				<div class="gallery-1">
@@ -227,160 +227,162 @@
 					</div>
 				</div>
 				<div class="price">
-					<a href="#">Показать прайс-лист</a>
+					<a class="b1-hiden">Показать прайс-лист</a>
 					<p>Прайс-лист обновлялся 3 дня назад</p>
 					<div class="hidden-price">
-						<div class="pr-left">
-							<div class="price-1">
-								<p>Маникюр европейский необрезной</p><p>290 руб.</p>
-								<span>(без использования режущих металлических инструментов)</span>
+						<div class="wrap-pr-left">
+							<div class="pr-left">
+								<div class="price-1">
+									<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+									<span>(без использования режущих металлических инструментов)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр классический</p><p>390 руб.</p>
+									<span>(обрезной)</span>
+								</div>
+								<div class="price-1">
+									<p>Комбинированный маникюр</p><p>590 руб.</p>
+									<span>(обрезной + аппаратный)</span>
+								</div>
+								<div class="price-1">
+									<p>Аппаратный маникюр</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+									<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+								</div>
+								<div class="price-1">
+									<p>Бразильский маникюр</p><p>590 руб.</p>
+									<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+								</div>
+								<div class="price-1">
+									<p>Горячий маникюр</p><p>590 руб.</p>
+									<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+								</div>
+								<div class="price-1">
+									<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+									<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+								</div>
+								<div class="price-1">
+									<p>Мужской маникюр</p><p>500 руб.</p>
+									<span>(Обрезной гигиенический маникюр)</span>
+								</div>
+								<div class="price-1">
+									<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+									<span>(Tartiso,CosmoLac, OPI)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+									<span>(Tartiso, Global Fashion, OPI)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+									<span>(Gellaktik, Starlet)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Spa для рук</p><p>250/300 руб.</p>
+								</div>
 							</div>
-							<div class="price-1">
-								<p>Маникюр классический</p><p>390 руб.</p>
-								<span>(обрезной)</span>
-							</div>
-							<div class="price-1">
-								<p>Комбинированный маникюр</p><p>590 руб.</p>
-								<span>(обрезной + аппаратный)</span>
-							</div>
-							<div class="price-1">
-								<p>Аппаратный маникюр</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
-								<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
-							</div>
-							<div class="price-1">
-								<p>Бразильский маникюр</p><p>590 руб.</p>
-								<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
-							</div>
-							<div class="price-1">
-								<p>Горячий маникюр</p><p>590 руб.</p>
-								<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
-							</div>
-							<div class="price-1">
-								<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
-								<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
-							</div>
-							<div class="price-1">
-								<p>Мужской маникюр</p><p>500 руб.</p>
-								<span>(Обрезной гигиенический маникюр)</span>
-							</div>
-							<div class="price-1">
-								<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
-								<span>(Tartiso,CosmoLac, OPI)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр + лечебный лак</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
-								<span>(Tartiso, Global Fashion, OPI)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
-								<span>(Gellaktik, Starlet)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Парафинотерапия рук</p><p>250/300 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Spa для рук</p><p>250/300 руб.</p>
-							</div>
-						</div>
 
-						<div class="pr-left">
-							<div class="price-1">
-								<p>Маникюр европейский необрезной</p><p>290 руб.</p>
-								<span>(без использования режущих металлических инструментов)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр классический</p><p>390 руб.</p>
-								<span>(обрезной)</span>
-							</div>
-							<div class="price-1">
-								<p>Комбинированный маникюр</p><p>590 руб.</p>
-								<span>(обрезной + аппаратный)</span>
-							</div>
-							<div class="price-1">
-								<p>Аппаратный маникюр</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
-								<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
-							</div>
-							<div class="price-1">
-								<p>Бразильский маникюр</p><p>590 руб.</p>
-								<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
-							</div>
-							<div class="price-1">
-								<p>Горячий маникюр</p><p>590 руб.</p>
-								<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
-							</div>
-							<div class="price-1">
-								<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
-								<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
-							</div>
-							<div class="price-1">
-								<p>Мужской маникюр</p><p>500 руб.</p>
-								<span>(Обрезной гигиенический маникюр)</span>
-							</div>
-							<div class="price-1">
-								<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
-								<span>(Tartiso,CosmoLac, OPI)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр + лечебный лак</p><p>590 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
-								<span>(Tartiso, Global Fashion, OPI)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
-								<span>(Gellaktik, Starlet)</span>
-							</div>
-							<div class="price-1">
-								<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Парафинотерапия рук</p><p>250/300 руб.</p>
-							</div>
-							<div class="price-1">
-								<p>Spa для рук</p><p>250/300 руб.</p>
+							<div class="pr-left">
+								<div class="price-1">
+									<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+									<span>(без использования режущих металлических инструментов)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр классический</p><p>390 руб.</p>
+									<span>(обрезной)</span>
+								</div>
+								<div class="price-1">
+									<p>Комбинированный маникюр</p><p>590 руб.</p>
+									<span>(обрезной + аппаратный)</span>
+								</div>
+								<div class="price-1">
+									<p>Аппаратный маникюр</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+									<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+								</div>
+								<div class="price-1">
+									<p>Бразильский маникюр</p><p>590 руб.</p>
+									<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+								</div>
+								<div class="price-1">
+									<p>Горячий маникюр</p><p>590 руб.</p>
+									<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+								</div>
+								<div class="price-1">
+									<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+									<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+								</div>
+								<div class="price-1">
+									<p>Мужской маникюр</p><p>500 руб.</p>
+									<span>(Обрезной гигиенический маникюр)</span>
+								</div>
+								<div class="price-1">
+									<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+									<span>(Tartiso,CosmoLac, OPI)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+									<span>(Tartiso, Global Fashion, OPI)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+									<span>(Gellaktik, Starlet)</span>
+								</div>
+								<div class="price-1">
+									<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+								</div>
+								<div class="price-1">
+									<p>Spa для рук</p><p>250/300 руб.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -402,12 +404,12 @@
 					<h3 class="standart-h">Комплекс в 4 руки</h3>
 					<p>Маникюр+педикюр в 4 руки с покрытием:<br> лечебный лак, лак, Shella</p>
 					<h3 class="gradient-h">ЗА 1790 РУБЛЕЙ</h3>
-					<button class="main-btn">ХОЧУ!</button>
+					<button data-fancybox data-src="#popup" href="javascript:;" class="main-btn">ХОЧУ!</button>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-12">
+			<div id="brovi" class="col-xl-12">
 				<div class="eyelashes">
 					<h3 class="standart-h">Брови и ресницы</h3>
 					<div class="wrap-eye">
@@ -415,21 +417,21 @@
 							<h5>Наращивание ресниц</h5>
 							<p>Если вы хотите сделать свой взгляд выразительным и сексуальным 24 часа 7 дней в неделю без какого-либо макияжа, то наращивание ресниц - то, что Вам нужно.</p>
 							<p>Наши мастера подберут Вам идеальную форму, степень густоты и длину ресниц, чтобы Ваш взгляд был максимально эффектным и чарующим.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 						</div>
 
 						<div class="eye">
 							<h5>Биоламинирование ресниц</h5>
 							<p>Процедура, питающая волоски ресниц специальными компонентами и минералами. В результате чего они становятся длиннее, плотнее и темнее. Ресницы приобретают красивый изгиб, который зрительно увеличивает глаза.</p>
 							<p>Эффект от процедуры держится от 1 до 2 месяцев.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 						</div>
 
 						<div class="eye">
 							<h5>Оформление и <br>окрашивание  бровей</h5>
 							<p>Брови - это обрамление наших глаз и, пожалуй, один из самых важных элементов нашего лица. Грамотно выбранная форма и цвет бровей может сделать внешность яркой и выразительной.</p>
 							<p>Так что совершенно неудивительно, что тренд на красивые и ухоженные брови набирает все большую популярность с каждым годом.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 						</div>
 					</div>
 					<div class="gallery-1">
@@ -455,21 +457,335 @@
 						</div>
 					</div>
 					<div class="price pink">
-						<a href="#">Показать прайс-лист</a>
+						<a class="b1-hiden">Показать прайс-лист</a>
 						<p>Прайс-лист обновлялся 3 дня назад</p>
+						<div class="hidden-price">
+							<div class="wrap-pr-left">
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+										<span>(без использования режущих металлических инструментов)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр классический</p><p>390 руб.</p>
+										<span>(обрезной)</span>
+									</div>
+									<div class="price-1">
+										<p>Комбинированный маникюр</p><p>590 руб.</p>
+										<span>(обрезной + аппаратный)</span>
+									</div>
+									<div class="price-1">
+										<p>Аппаратный маникюр</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+										<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+									</div>
+									<div class="price-1">
+										<p>Бразильский маникюр</p><p>590 руб.</p>
+										<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+									</div>
+									<div class="price-1">
+										<p>Горячий маникюр</p><p>590 руб.</p>
+										<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+									</div>
+									<div class="price-1">
+										<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+										<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр</p><p>500 руб.</p>
+										<span>(Обрезной гигиенический маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+										<span>(Tartiso, Global Fashion, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+										<span>(Gellaktik, Starlet)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Spa для рук</p><p>250/300 руб.</p>
+									</div>
+								</div>
+
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+										<span>(без использования режущих металлических инструментов)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр классический</p><p>390 руб.</p>
+										<span>(обрезной)</span>
+									</div>
+									<div class="price-1">
+										<p>Комбинированный маникюр</p><p>590 руб.</p>
+										<span>(обрезной + аппаратный)</span>
+									</div>
+									<div class="price-1">
+										<p>Аппаратный маникюр</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+										<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+									</div>
+									<div class="price-1">
+										<p>Бразильский маникюр</p><p>590 руб.</p>
+										<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+									</div>
+									<div class="price-1">
+										<p>Горячий маникюр</p><p>590 руб.</p>
+										<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+									</div>
+									<div class="price-1">
+										<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+										<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр</p><p>500 руб.</p>
+										<span>(Обрезной гигиенический маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+										<span>(Tartiso, Global Fashion, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+										<span>(Gellaktik, Starlet)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Spa для рук</p><p>250/300 руб.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-12">
+			<div id="depi" class="col-xl-12">
 				<div class="depil">
 					<h3 class="standart-h">Депиляция</h3>
 					<p class="depil-p">Гладкая кожа без намека на нежелательные волоски - мечта многих.<br> Специалисты по депиляции Asia Beauty Salon помогут вам добиться такого эффекта, который сохранится до 3 недель.</p>
 					<p class="depil-p">Более того, имея большой опыт, наши мастера работают очень быстро и деликатно.</p>
 					<div class="price pink">
-						<a href="#">Показать прайс-лист</a>
+						<a class="b1-hiden">Показать прайс-лист</a>
 						<p>Прайс-лист обновлялся 3 дня назад</p>
+						<div class="hidden-price">
+							<div class="wrap-pr-left">
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+										<span>(без использования режущих металлических инструментов)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр классический</p><p>390 руб.</p>
+										<span>(обрезной)</span>
+									</div>
+									<div class="price-1">
+										<p>Комбинированный маникюр</p><p>590 руб.</p>
+										<span>(обрезной + аппаратный)</span>
+									</div>
+									<div class="price-1">
+										<p>Аппаратный маникюр</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+										<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+									</div>
+									<div class="price-1">
+										<p>Бразильский маникюр</p><p>590 руб.</p>
+										<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+									</div>
+									<div class="price-1">
+										<p>Горячий маникюр</p><p>590 руб.</p>
+										<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+									</div>
+									<div class="price-1">
+										<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+										<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр</p><p>500 руб.</p>
+										<span>(Обрезной гигиенический маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+										<span>(Tartiso, Global Fashion, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+										<span>(Gellaktik, Starlet)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Spa для рук</p><p>250/300 руб.</p>
+									</div>
+								</div>
+
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Маникюр европейский необрезной</p><p>290 руб.</p>
+										<span>(без использования режущих металлических инструментов)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр классический</p><p>390 руб.</p>
+										<span>(обрезной)</span>
+									</div>
+									<div class="price-1">
+										<p>Комбинированный маникюр</p><p>590 руб.</p>
+										<span>(обрезной + аппаратный)</span>
+									</div>
+									<div class="price-1">
+										<p>Аппаратный маникюр</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
+										<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+									</div>
+									<div class="price-1">
+										<p>Бразильский маникюр</p><p>590 руб.</p>
+										<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+									</div>
+									<div class="price-1">
+										<p>Горячий маникюр</p><p>590 руб.</p>
+										<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+									</div>
+									<div class="price-1">
+										<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
+										<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр</p><p>500 руб.</p>
+										<span>(Обрезной гигиенический маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
+										<span>(Tartiso, Global Fashion, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
+										<span>(Gellaktik, Starlet)</span>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Парафинотерапия рук</p><p>250/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Spa для рук</p><p>250/300 руб.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -516,7 +832,7 @@
 						<p>Вечерний макияж:<span>от 1 200 руб.</span></p>
 						<p>Свадебный макияж:<span>от 1 500 руб</span></p>
 					</div>
-					<button class="main-btn">Записаться</button>
+					<button data-fancybox data-src="#popup" href="javascript:;" class="main-btn">Записаться</button>
 				</div>
 			</div>
 		</div>
@@ -537,7 +853,7 @@
 							<h5>Укладки и прически</h5>
 							<p>Укладки - это быстрый способ изменить внеший вид Ваших волос. С ее помощью можно добиться шикарного объема и изменения формы стрижки "без ножниц".</p>
 							<p>Прически - это отличный вариант для создания повседневного или вечернего образа. Выбирайте будет ли это легкая текстурная прическа, классический пучок или красивые косы. Наши стилисты воплотят в жизнь любую вашу задумку.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 							<div class="maki-p-2">
 								<p>Укладка на Брашинг:<span>от 600 руб.</span></p>
 								<p>Укладка локоны:<span>от 800 руб.</span></p>
@@ -549,7 +865,7 @@
 							<h5>Стрижки</h5>
 							<p>Сегодня стрижка -  это неотъемлемая часть любого образа. Для того, чтобы выглядеть стильно и ухоженно ее нужно регулярно обновлять.</p>
 							<p>Парикмахеры Asia Beauty Salon подберут Вам идеальную стрижку с учетом Ваших личных предпочтений, формы лица и фактуры волос.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 							<div class="maki-p-2">
 								<p>Стрижки:<span>от 500 руб.</span></p>
 								<p>Подравнивание длины:<span>300 руб.</span></p>
@@ -561,7 +877,7 @@
 							<h5>Окрашивание волос</h5>
 							<p>Окрашивание позволяет придать волосам красивый и насыщенный цвет. А современные техники и технологии окрашивания дают возможность быстро и координально изменить цвет волос без серьезных повреждений.</p>
 							<p>Наши колористы, имея широкую цветовую палитру и качественные красители, подберут Вам идеальный оттенок волос согласно Вашим желаниям и цветотипу.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 							<div class="maki-p-2">
 								<p>Окрашивание в один тон:<span>1 гр. 20 руб.</span></p>
 								<p>Окрашивание корней:<span>1 200 руб.</span></p>
@@ -576,7 +892,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-12">
+			<div id="uhod" class="col-xl-12">
 				<div class="wrap-hair">
 					<h3 class="standart-h">Уход за волосами</h3>
 					<div class="hair">
@@ -585,7 +901,7 @@
 							<p>- это уходовая процедура для здоровья и красоты волос. Основным компонентом ботокса (для волос!) является интрасилин, который попадая в волосяной стержень укрепляет его и облегчает проникновение других питательных веществ состава: витаминов А, В, Е, С, экстракта алоэ,  кератина, аминокислот и др.</p>
 							<p>Ботокс улучшает структуру волос, делает их менее пушистыми и пористыми, разглаживает волосы, нейтрализует желтизну.</p>
 							<span>*Держится от 1 до 3 месяцев.</span>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 							<div class="maki-p-2">
 								<p>Ботокс для волос на любую длину:<span>3000 руб.</span></p>
 							</div>
@@ -595,7 +911,7 @@
 							<h5>Кератиновое выпрямление</h5>
 							<p>- это процедура, направленная на выпрямление и восстановление структуры волос. Жидкий кератин обволакивает волосы и заполняет поврежденные участки, запуская процесс восстановления волосяной основы - кортекса и чешуйчатого слоя. Кератин защищает от ультрафиолетового излучения, уличной пыли и перепада температур.</p>
 							<p>Кератиновое выпрямление подходит тем, кто хочет сделать волосы невероятно гладкими и эластичными, блестящими и прямыми словно "стеклянное" полотно.</p>
-							<button class="btn-tsp">Записаться</button>
+							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 							<div class="maki-p-2">
 								<p>Кератиновое выпрямление:<span>от 4000 руб.</span></p>
 							</div>
@@ -699,7 +1015,7 @@
 							<p><b>Телефон:</b> +7(499) 499 99 99</p>
 						</div>
 					</div>
-					<a href="#" class="btn-hidden">Показать все салоны на карте</a>
+					<a class="btn-hidden">Показать все салоны на карте</a>
 				</div>
 			</div>
 		</div>
@@ -738,10 +1054,25 @@
 		</div>
 	</div>
 </footer>
+
+<div id="popup" class="card" style="display: none;">
+	<div class="b1-form">
+			<form action="" class="b1-f1">
+			<label data-selectable="true" for="f-name" class="b1-lab">Записаться на <span>БЕСПЛАТНУЮ</span> консультацию стилиста</label>
+			<input type="text" name="f-name" class="f-name" placeholder="Ваше имя">
+			<input type="text" name="f-phone" class="f-phone" placeholder="Ваш телефон">
+			<button class="btn-f1">Отправить</button>
+			<p data-selectable="true">«Нажимая на кнопку, вы даете согласие<br> на обработку персональных данных<br> и соглашаетесь c политикой<br> конфиденциальности»</p>
+		</form>
+	</div>
+</div>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script> 
 	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
 	<script type="text/javascript" src="js/jquery.countdown.js"></script>
 	<script src="/js/main.js"></script>

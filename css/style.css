@@ -54,7 +54,7 @@ header {position: relative; z-index: 100;}
 .mg-tb-10 {margin: 0 10em;}
 
 
-
+#b1 {padding-top: 80px;}
 .bg-1 {
 	background: url('/img/main/bg-b1.jpg') no-repeat top;
 	background-size: cover;
@@ -318,7 +318,7 @@ header {position: relative; z-index: 100;}
 }
 .price a{
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   border-radius: 3px;
   background-color: rgb(54, 183, 180);
   width: 247px;
@@ -328,6 +328,7 @@ header {position: relative; z-index: 100;}
   padding-right: 20px;
   position: relative;
   margin: auto;
+  cursor: pointer;
 }
 
 .price a::before {
@@ -372,9 +373,10 @@ header {position: relative; z-index: 100;}
 
 .wrap-4hands {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 .eyelashes {
-  margin-top: 160px;
+  margin-top: 80px;
 }
 .wrap-4hands p {
   margin-top: 35px;
@@ -745,12 +747,12 @@ header {position: relative; z-index: 100;}
 }
 
 .btn-hidden {
-	border-radius: 3px;
+	  border-radius: 3px;
     background-color: rgb(230, 0, 126);
     height: 50px;
     width: 295px;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     margin-top: 50px;
     position: absolute;
     left: 0;
@@ -761,9 +763,10 @@ header {position: relative; z-index: 100;}
   	text-align: center;
   	transition: ease-in-out .3s;
   	border: 1px solid rgb(230, 0, 126);
+    cursor: pointer;
 }
 .btn-hidden:hover {
-	color: rgb(230, 0, 126);
+	color: rgb(230, 0, 126) !important;
 	background-color: transparent;
 }
 footer {
@@ -832,8 +835,10 @@ footer {
 	margin: auto;
 }
 .hidden-price {
-	background-color: #333333;
 	margin-top: 35px;
+}
+.pink .hidden-price p, .pink .hidden-price span, .pink .hidden-price {
+  color: #333333;
 }
 
 .hidden-price {
@@ -845,3 +850,30 @@ footer {
 .navbar-brand img {max-width: 60px;}
 
 .navbar {display: none;}
+
+.wrap-menu {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1170px;
+}
+.header-fixed .wrap-menu {background-color: #ffffff; width: 100%; max-width: 100%; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.header-fixed .menu a {color: rgb(230, 0, 126);}
+.header-fixed .menu {max-width: 1170px; margin: auto; height: 50px; align-items: center; }
+.header-fixed .menu a:hover {border-bottom: 2px solid rgb(230, 0, 126);}
+.hidden-price {display: none;}
+
+.wrap-pr-left {display: flex; justify-content: space-around;}
+
+#popup .b1-f1{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

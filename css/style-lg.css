@@ -1,0 +1,5 @@
+.gallery-1 {flex-wrap: wrap; justify-content: space-around;} .wrap-gal {width: 50%; text-align: center; margin-bottom: 25px;}
+.price-1 {max-width: 385px;} .bg-hands {background: url(/img/main/bg-hands.jpg) no-repeat right -110px top;}
+.bg-legs {background-size: 410px;} .wrap-konsul {margin: auto;} .bg-konsul-1 {display: none;} .bg-konsul-2 {display: none;}
+.bg-sakura {width: 50%;} #vetka {width: 265px;} .main-gallery {justify-content: space-around;} .g-item {margin: 15px;}
+.info p {font-size: 14px;}

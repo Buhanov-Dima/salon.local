@@ -943,3 +943,5 @@ footer {
   background-size: 45px 115px;
   opacity: 0;
 }
+
+.pr-mh .standart-h-wh::before {display: none;}

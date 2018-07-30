@@ -17,6 +17,17 @@ $(document).ready(function(){
 	$('.wrap-info-map').on('click', '.btn-hidden', function() {
 		$(this).toggleClass('red').siblings('.info-map').slideToggle(0);
 	});
+
+
+
+	wow = new WOW({
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       40,          // default
+        mobile:       false,       // default
+        live:         true        // default
+      });
+      wow.init();
 	
 });
 

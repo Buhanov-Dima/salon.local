@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="/css/jquery.countdown.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="css/style-xxl.css" media="only screen and (max-width:1450px)">
 	<link rel="stylesheet" href="css/style-lg.css" media="only screen and (max-width:1200px)">
@@ -117,7 +118,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="wrap-b2">
-					<h2 class="standart-h">Asia Beauty Salon</h2>
+					<h2 class="standart-h wow slideInDown animated animated" data-wow-offset="450">Asia Beauty Salon</h2>
 					<div class="wrap-advantages">
 						<div class="advantage">
 							<div class="adv-icon">
@@ -172,8 +173,8 @@
 		<div class="row">
 			<div class="col-xl-9">
 				<div class="wrap-shellac">
-					<h1>АППАРАТНЫЙ МАНИКЮР+ПЕДИКЮР <br>С ПОКРЫТИЕМ Shellac</h1>
-					<h3>ЗА 1500 РУБЛЕЙ</h3>
+					<h1 class="wow slideInLeft animated animated">АППАРАТНЫЙ МАНИКЮР+ПЕДИКЮР <br>С ПОКРЫТИЕМ Shellac</h1>
+					<h3 class="wow slideInRight animated animated">ЗА 1500 РУБЛЕЙ</h3>
 					<div class="timer">
 						<div id="defaultCountdown"></div>
 					</div>
@@ -189,7 +190,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
-				<h1 class="standart-h white-txt">Маникюр и педикюр</h1>
+				<h1 class="standart-h white-txt wow slideInDown animated animated">Маникюр и педикюр</h1>
 				<div class="wrap-man-ped">
 					<div class="manikyr">
 						<h4>Маникюр</h4>
@@ -362,6 +363,116 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="price-main">
+								<div class="pr-mh">
+									<h3 class="standart-h-wh">Дополнительно</h3>
+								</div>
+								<div class="pr-mh-p">
+									<div>
+										<h4 class="white-txt">Покрытие и дизайн</h4>
+										<p>В Asia Beauty Salon представлен широкий выбор покрытий и текстур. А наши мастера владеют самыми разными техниками дизайна и украшения ногтей.<br>Вы без проблем сможете воплотить в жизнь свои самые необычные и сложные идеи.</p>
+									</div>
+									<div>
+										<h4 class="white-txt">Наращивание ногтей</h4>
+										<p>Хотите отрастить ногти всего за 1 час? Нет ничего проще. В нашем салоне Вам наростят ногти любой длины и формы. Вы также можете починить ноготки, укрепить или выровнять свою естественную ногтевую пластину.</p>
+									</div>
+								</div>
+							</div>
+
+						<div class="wrap-pr-left">
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Лечебное покрытие IBX System</p><p>500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лечебное покрытие Vita-gel</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лечебный лак</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие лаком</p><p>300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие Shellac BluSky</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие гель-лак OPI, Tartiso, CosmoLac</p><p>790 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие гель-лак Luxio, Beautix</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Матовый топ</p><p>100 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Френч-дизайн на 10 ногтей</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лунный дизайн на 10 ногтей</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн "Втирка"</p><p>100/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн "Градиент, омбрэ"</p><p>50/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн аэрорографом</p><p>100/7000 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Рисунок кистью и сложный дизайн</p><p>100/600 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Стразы на 1 ноготь (полностью)</p><p>300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Глиттеры (битое стекло, слюда)</p><p>100/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Другие виды (слайдеры)</p><p>от 50 руб.</p>
+									</div>
+								</div>
+
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Наращивание гелем под покрытие</p><p>1500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Наращивание 1 ногтя</p><p>100/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Ремонт 1 ногтя</p><p>100/200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление натуральных ногтей гелем</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление натуральныех ногтей акрилом</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление биогелем</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Выравнимание ногтевой пластины</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Снятие Shellac в комплексе процедуры</p><p>100 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Аппаратное снятие Shellac / гель-лака</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Снятие геля, акрила  нарощенных ногтей</p><p>500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Придание формы ногтей</p><p>200 руб.</p>
+									</div>
+								</div>
+							</div>
+
+
 					</div>
 				</div>
 			</div>
@@ -378,7 +489,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="wrap-4hands">
-					<h3 class="standart-h">Комплекс в 4 руки</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Комплекс в 4 руки</h3>
 					<p>Маникюр+педикюр в 4 руки с покрытием:<br> лечебный лак, лак, Shella</p>
 					<h3 class="gradient-h">ЗА 1790 РУБЛЕЙ</h3>
 					<button data-fancybox data-src="#popup" href="javascript:;" class="main-btn">ХОЧУ!</button>
@@ -388,7 +499,7 @@
 		<div class="row">
 			<div id="brovi" class="col-xl-12">
 				<div class="eyelashes">
-					<h3 class="standart-h">Брови и ресницы</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Брови и ресницы</h3>
 					<div class="wrap-eye">
 						<div class="eye">
 							<h5>Наращивание ресниц</h5>
@@ -516,59 +627,169 @@
 								</div>
 
 								<div class="pr-left">
-								<div class="price-1">
-									<p>Педикюр Fresh</p><p>490 руб.</p>
-									<span>(обработка пальцев ног)</span>
-								</div>
-								<div class="price-1">
-									<p>Педикюр классический</p><p>890 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Аппаратный педикюр без покрытия</p><p>1190 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Комбинированный педикюр без покрытия</p><p>1190 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Педикюр мужской классический</p><p>990 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Педикюр мужской</p><p>1 290 руб.</p>
-									<span>(аппаратный - комбинированный)</span>
-								</div>
-								<div class="price-1">
-									<p>Педикюр с покрытием Shellac BlueSky</p><p>1090 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Педикюрс покрытием гель-лак</p><p>1190 руб.</p>
-									<span>(Tartiso,CosmoLac, OPI)</span>
-								</div>
-								<div class="price-1">
-									<p>Педикюр и покрытие лаком</p><p>1190 руб.</p>
-									<span>(Обрезной гигиенический маникюр)</span>
-								</div>
-								<div class="price-1">
-									<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Педикюр + лечебный лак</p><p>1100 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Педикюр с покрытием Luxio, Beautix</p><p>1590 руб.</p>
-									<span>(Tartiso,CosmoLac, OPI)</span>
-								</div>
-								<div class="price-1">
-									<p>Бразильский педикюр</p><p>1190 руб.</p>
-									<span>Глубокое восстановление кожи ступней, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы</span>
-								</div>
-								<div class="price-1">
-									<p>Обработка стоп, трещин, мазолей</p><p>300 руб.</p>
-								</div>
-								<div class="price-1">
-									<p>Обработка вросшего ногтя</p><p>100/150 руб.</p>
+									<div class="price-1">
+										<p>Педикюр Fresh</p><p>490 руб.</p>
+										<span>(обработка пальцев ног)</span>
+									</div>
+									<div class="price-1">
+										<p>Педикюр классический</p><p>890 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Аппаратный педикюр без покрытия</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Комбинированный педикюр без покрытия</p><p>1190 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Педикюр мужской классический</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Педикюр мужской</p><p>1 290 руб.</p>
+										<span>(аппаратный - комбинированный)</span>
+									</div>
+									<div class="price-1">
+										<p>Педикюр с покрытием Shellac BlueSky</p><p>1090 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Педикюрс покрытием гель-лак</p><p>1190 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Педикюр и покрытие лаком</p><p>1190 руб.</p>
+										<span>(Обрезной гигиенический маникюр)</span>
+									</div>
+									<div class="price-1">
+										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Педикюр + лечебный лак</p><p>1100 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Педикюр с покрытием Luxio, Beautix</p><p>1590 руб.</p>
+										<span>(Tartiso,CosmoLac, OPI)</span>
+									</div>
+									<div class="price-1">
+										<p>Бразильский педикюр</p><p>1190 руб.</p>
+										<span>Глубокое восстановление кожи ступней, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы</span>
+									</div>
+									<div class="price-1">
+										<p>Обработка стоп, трещин, мазолей</p><p>300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Обработка вросшего ногтя</p><p>100/150 руб.</p>
+									</div>
 								</div>
 							</div>
+
+							<div class="price-main">
+								<div class="pr-mh">
+									<h3 class="standart-h-wh">Дополнительно</h3>
+								</div>
+								<div class="pr-mh-p">
+									<div>
+										<h4>Покрытие и дизайн</h4>
+										<p>В Asia Beauty Salon представлен широкий выбор покрытий и текстур. А наши мастера владеют самыми разными техниками дизайна и украшения ногтей.<br>Вы без проблем сможете воплотить в жизнь свои самые необычные и сложные идеи.</p>
+									</div>
+									<div>
+										<h4>Наращивание ногтей</h4>
+										<p>Хотите отрастить ногти всего за 1 час? Нет ничего проще. В нашем салоне Вам наростят ногти любой длины и формы. Вы также можете починить ноготки, укрепить или выровнять свою естественную ногтевую пластину.</p>
+									</div>
+								</div>
 							</div>
+
+							<div class="wrap-pr-left">
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Лечебное покрытие IBX System</p><p>500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лечебное покрытие Vita-gel</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лечебный лак</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие лаком</p><p>300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие Shellac BluSky</p><p>590 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие гель-лак OPI, Tartiso, CosmoLac</p><p>790 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Покрытие гель-лак Luxio, Beautix</p><p>990 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Матовый топ</p><p>100 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Френч-дизайн на 10 ногтей</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Лунный дизайн на 10 ногтей</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн "Втирка"</p><p>100/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн "Градиент, омбрэ"</p><p>50/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Дизайн аэрорографом</p><p>100/7000 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Рисунок кистью и сложный дизайн</p><p>100/600 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Стразы на 1 ноготь (полностью)</p><p>300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Глиттеры (битое стекло, слюда)</p><p>100/500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Другие виды (слайдеры)</p><p>от 50 руб.</p>
+									</div>
+								</div>
+
+								<div class="pr-left">
+									<div class="price-1">
+										<p>Наращивание гелем под покрытие</p><p>1500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Наращивание 1 ногтя</p><p>100/300 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Ремонт 1 ногтя</p><p>100/200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление натуральных ногтей гелем</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление натуральныех ногтей акрилом</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Укрепление биогелем</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Выравнимание ногтевой пластины</p><p>400 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Снятие Shellac в комплексе процедуры</p><p>100 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Аппаратное снятие Shellac / гель-лака</p><p>200 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Снятие геля, акрила  нарощенных ногтей</p><p>500 руб.</p>
+									</div>
+									<div class="price-1">
+										<p>Придание формы ногтей</p><p>200 руб.</p>
+									</div>
+								</div>
+							</div>
+
+
 						</div>
 					</div>
 				</div>
@@ -577,7 +798,7 @@
 		<div class="row">
 			<div id="depi" class="col-xl-12">
 				<div class="depil">
-					<h3 class="standart-h">Депиляция</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Депиляция</h3>
 					<p class="depil-p">Гладкая кожа без намека на нежелательные волоски - мечта многих.<br> Специалисты по депиляции Asia Beauty Salon помогут вам добиться такого эффекта, который сохранится до 3 недель.</p>
 					<p class="depil-p">Более того, имея большой опыт, наши мастера работают очень быстро и деликатно.</p>
 					<div class="price pink">
@@ -717,140 +938,110 @@
 								</div>
 							</div>
 							
-							<div class="">
-								<h3 class="standart-h-wh">Дополнительно</h3>
+							<div class="price-main">
+								<div class="pr-mh">
+									<h3 class="standart-h-wh">Дополнительно</h3>
+								</div>
+								<div class="pr-mh-p">
+									<div>
+										<h4>Покрытие и дизайн</h4>
+										<p>В Asia Beauty Salon представлен широкий выбор покрытий и текстур. А наши мастера владеют самыми разными техниками дизайна и украшения ногтей.<br>Вы без проблем сможете воплотить в жизнь свои самые необычные и сложные идеи.</p>
+									</div>
+									<div>
+										<h4>Наращивание ногтей</h4>
+										<p>Хотите отрастить ногти всего за 1 час? Нет ничего проще. В нашем салоне Вам наростят ногти любой длины и формы. Вы также можете починить ноготки, укрепить или выровнять свою естественную ногтевую пластину.</p>
+									</div>
+								</div>
 							</div>
-
 
 							<div class="wrap-pr-left">
 								<div class="pr-left">
 									<div class="price-1">
-										<p>Маникюр европейский необрезной</p><p>290 руб.</p>
-										<span>(без использования режущих металлических инструментов)</span>
+										<p>Лечебное покрытие IBX System</p><p>500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр классический</p><p>390 руб.</p>
-										<span>(обрезной)</span>
+										<p>Лечебное покрытие Vita-gel</p><p>400 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Комбинированный маникюр</p><p>590 руб.</p>
-										<span>(обрезной + аппаратный)</span>
+										<p>Лечебный лак</p><p>200 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Аппаратный маникюр</p><p>590 руб.</p>
+										<p>Покрытие лаком</p><p>300 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Японский маникюр Marusa, P- Shine</p><p>790 руб.</p>
-										<span>(Комплексное лечение "проблемных ногтей": диагностика<br> ногтевой пластины + пилинг +маска + массаж рук)</span>
+										<p>Покрытие Shellac BluSky</p><p>590 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Бразильский маникюр</p><p>590 руб.</p>
-										<span>(Глубокое восстановление кожи рук, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы)</span>
+										<p>Покрытие гель-лак OPI, Tartiso, CosmoLac</p><p>790 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Горячий маникюр</p><p>590 руб.</p>
-										<span>(Наиболее Эффективное и Интенсивное увлажнение ногтей и кожи рук в питательном масле и креме с температурой 50-55 градусов.)</span>
+										<p>Покрытие гель-лак Luxio, Beautix</p><p>990 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Детский маникюр * до 12 лет</p><p>190 руб.</p>
-										<span>(Гигиеническая процедура для ногтей. Не обрезной маникюр)</span>
+										<p>Матовый топ</p><p>100 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Мужской маникюр</p><p>500 руб.</p>
-										<span>(Обрезной гигиенический маникюр)</span>
+										<p>Френч-дизайн на 10 ногтей</p><p>200 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+										<p>Лунный дизайн на 10 ногтей</p><p>200 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр с покрытием Shellac BlueSky</p><p>690 руб.</p>
+										<p>Дизайн "Втирка"</p><p>100/500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр с покрытием гель-лак</p><p>890 руб.</p>
-										<span>(Tartiso,CosmoLac, OPI)</span>
+										<p>Дизайн "Градиент, омбрэ"</p><p>50/500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр и покрытие лаком</p><p>690 руб.</p>
+										<p>Дизайн аэрорографом</p><p>100/7000 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр + лечебный лак</p><p>590 руб.</p>
+										<p>Рисунок кистью и сложный дизайн</p><p>100/600 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр с покрытием Luxio, Beautix</p><p>1190 руб.</p>
+										<p>Стразы на 1 ноготь (полностью)</p><p>300 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр с покрытием "Кошачий глаз"</p><p>990 руб.</p>
-										<span>(Tartiso, Global Fashion, OPI)</span>
+										<p>Глиттеры (битое стекло, слюда)</p><p>100/500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Маникюр с покрытием "Кошачий глаз 3D"</p><p>1190 руб.</p>
-										<span>(Gellaktik, Starlet)</span>
-									</div>
-									<div class="price-1">
-										<p>Маникюр (комби-аппартаный) + BlueSky</p><p>990 руб.</p>
-									</div>
-									<div class="price-1">
-										<p>Маникюр (комби-аппартаный) + Tartiso, CosmoLac, OPI</p><p>1190 руб.</p>
-									</div>
-									<div class="price-1">
-										<p>Парафинотерапия рук</p><p>250/300 руб.</p>
-									</div>
-									<div class="price-1">
-										<p>Spa для рук</p><p>250/300 руб.</p>
+										<p>Другие виды (слайдеры)</p><p>от 50 руб.</p>
 									</div>
 								</div>
 
 								<div class="pr-left">
 									<div class="price-1">
-										<p>Педикюр Fresh</p><p>490 руб.</p>
-										<span>(обработка пальцев ног)</span>
+										<p>Наращивание гелем под покрытие</p><p>1500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр классический</p><p>890 руб.</p>
+										<p>Наращивание 1 ногтя</p><p>100/300 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Аппаратный педикюр без покрытия</p><p>1190 руб.</p>
+										<p>Ремонт 1 ногтя</p><p>100/200 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Комбинированный педикюр без покрытия</p><p>1190 руб.</p>
+										<p>Укрепление натуральных ногтей гелем</p><p>400 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр мужской классический</p><p>990 руб.</p>
+										<p>Укрепление натуральныех ногтей акрилом</p><p>400 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр мужской</p><p>1 290 руб.</p>
-										<span>(аппаратный - комбинированный)</span>
+										<p>Укрепление биогелем</p><p>400 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр с покрытием Shellac BlueSky</p><p>1090 руб.</p>
+										<p>Выравнимание ногтевой пластины</p><p>400 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюрс покрытием гель-лак</p><p>1190 руб.</p>
-										<span>(Tartiso,CosmoLac, OPI)</span>
+										<p>Снятие Shellac в комплексе процедуры</p><p>100 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр и покрытие лаком</p><p>1190 руб.</p>
-										<span>(Обрезной гигиенический маникюр)</span>
+										<p>Аппаратное снятие Shellac / гель-лака</p><p>200 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Мужской маникюр с матовым покрытием</p><p>590 руб.</p>
+										<p>Снятие геля, акрила  нарощенных ногтей</p><p>500 руб.</p>
 									</div>
 									<div class="price-1">
-										<p>Педикюр + лечебный лак</p><p>1100 руб.</p>
-									</div>
-									<div class="price-1">
-										<p>Педикюр с покрытием Luxio, Beautix</p><p>1590 руб.</p>
-										<span>(Tartiso,CosmoLac, OPI)</span>
-									</div>
-									<div class="price-1">
-										<p>Бразильский педикюр</p><p>1190 руб.</p>
-										<span>Глубокое восстановление кожи ступней, укрепеление и отбеливание ногтевой пластины, смягчение кожи и кутикулы</span>
-									</div>
-									<div class="price-1">
-										<p>Обработка стоп, трещин, мазолей</p><p>300 руб.</p>
-									</div>
-									<div class="price-1">
-										<p>Обработка вросшего ногтя</p><p>100/150 руб.</p>
+										<p>Придание формы ногтей</p><p>200 руб.</p>
 									</div>
 								</div>
 							</div>
@@ -869,7 +1060,7 @@
 		<div class="row">
 			<div class="col-xl-8 ml-auto">
 				<div class="wrap-konsul">
-					<h3 class="standart-h-wh">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ СТИЛИСТА</h3>
+					<h3 class="standart-h-wh wow slideInDown animated animated">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ СТИЛИСТА</h3>
 					<p>Не можете определиться с цветом своих волос?<br> Не знаете какую стрижку выбрать?<br> Хотите добавить в свою внешность что-то новое и необычное?</p>
 					<h4>Профессиональные стилисты помогут Вам!</h4>
 					<form action="" class="form-2">
@@ -891,7 +1082,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="maki">
-					<h3 class="standart-h">Макияж</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Макияж</h3>
 					<div class="maki-p">
 						<p>Макияж - это настоящее искусство. Недостаточно обладать качественными косметическими средствами, хотя без этого никуда. Необходимо чувствовать характер и внешность людей.</p>
 						<p>Стилисты Asia Beuty Salon - профессионалы в своем деле. Они грамотно работают с пропорциями лица, светом и тенью, цветом и текстурой. Макияж, который они создают усиливает внешнюю красоту и индивидуальность.</p>
@@ -916,7 +1107,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="wrap-uslugi">
-					<h3 class="standart-h">Парикмахерские услуги</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Парикмахерские услуги</h3>
 					<div class="uslugi">
 						<div class="usluga">
 							<h5>Укладки и прически</h5>
@@ -963,7 +1154,7 @@
 		<div class="row">
 			<div id="uhod" class="col-xl-12">
 				<div class="wrap-hair">
-					<h3 class="standart-h">Уход за волосами</h3>
+					<h3 class="standart-h wow slideInDown animated animated">Уход за волосами</h3>
 					<div class="hair">
 						<div class="usluga">
 							<h5>Ботокс для волос</h5>
@@ -1144,6 +1335,7 @@
 	<script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script> 
 	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
 	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script src="/js/wow.min.js"></script>
 	<script src="/js/main.js"></script>
 </body>
 </html>

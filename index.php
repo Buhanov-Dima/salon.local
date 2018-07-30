@@ -82,7 +82,9 @@
 						<div class="logo">
 							<img src="/img/logo.png" alt="">
 						</div>
-						<h1>ASIA BEAUTY SALON</h1>
+						<div class="dva">
+							<h1>ASIA BEAUTY SALON</h1>
+						</div>
 						<p>салон красоты</p>
 					</div>
 				</div>
@@ -92,7 +94,7 @@
 							<a href="#"><img src="/img/icons/watsapp.png" alt=""></a>
 							<a href="#"><img src="/img/icons/viber.png" alt=""></a>
 							<div class="phone">
-								<p> +7 (499) <b>499 99 99</b></p>
+								<p> +7 (916) <b>877 04 44</b></p>
 								<span>Ежедневно с 10:00 до 20:00</span>
 							</div>
 						</div>
@@ -1250,7 +1252,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="wrap-maps">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.0826091035292!2d37.600681620095!3d55.78009637317948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a10adb92ce3%3A0x86d1b555a0928bdc!2z0JTRgNGD0LbQsdCw!5e0!3m2!1sru!2sru!4v1532854773652" width="100%" height="485" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaca1a33e32cbd715043d7d6cc499dd086e4d2982b02de5edf4e539db2ed77c94&amp;width=100%25&amp;height=485&amp;lang=ru_RU&amp;scroll=true"></script>
 				</div>
 				<div class="wrap-info-map">
 					<div class="info-map">
@@ -1258,21 +1260,29 @@
 							<p><b>Москва, ул. Новослободская, 4</b></p>
 							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
 							<p><b>Режим работы:</b> 10.00 - 22.00</p>
-							<p><b>Телефон:</b> +7(499) 499 99 99</p>
 						</div>
 
 						<div class="info">
-							<p><b>Москва, ул. Новослободская, 4</b></p>
-							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
+							<p><b>Москва, ул. Азовская, д24 к3</b></p>
+							<p>трц "Азовский"</p>
 							<p><b>Режим работы:</b> 10.00 - 22.00</p>
-							<p><b>Телефон:</b> +7(499) 499 99 99</p>
 						</div>
 
 						<div class="info">
-							<p><b>Москва, ул. Новослободская, 4</b></p>
-							<p>Торговый Дом "Дружба" 1 и 3 этаж</p>
+							<p><b>Москва, ул. Адмирала Лазарева, 68</b></p>
 							<p><b>Режим работы:</b> 10.00 - 22.00</p>
-							<p><b>Телефон:</b> +7(499) 499 99 99</p>
+						</div>
+
+						<div class="info">
+							<p><b>Москва, ул. Кировоградская, 23а</b></p>
+							<p><b>Режим работы:</b> 10.00 - 22.00</p>
+						</div>
+
+						<div class="info">
+							<p><b>Москва, Борисовские пруды, 68</b></p>
+							<p>трц "Браво" 2 этаж</p>
+							<p><b>Режим работы:</b> 10.00 - 22.00</p>
+							<p><b>Телефон:</b> +7(916) 877 04 44</p>
 						</div>
 					</div>
 					<a class="btn-hidden">Показать все салоны на карте</a>
@@ -1305,7 +1315,7 @@
 						<a href="#"><img src="/img/icons/watsapp.png" alt=""></a>
 						<a href="#"><img src="/img/icons/viber.png" alt=""></a>
 						<div class="phone">
-							<p> +7 (499) <b>499 99 99</b></p>
+							<p> +7 (916) <b>877 04 44</b></p>
 							<span>Ежедневно с 10:00 до 20:00</span>
 						</div>
 					</div>

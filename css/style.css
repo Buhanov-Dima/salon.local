@@ -77,7 +77,6 @@ header {position: relative; z-index: 100;}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #e1047e;
-  margin-top: 50px;
   line-height: 1;
 }
 .b1-left p{
@@ -713,7 +712,8 @@ header {position: relative; z-index: 100;}
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-#m-gallery, #maps {overflow: hidden; position: relative;}
+#m-gallery{overflow: hidden; position: relative;}
+#maps {overflow-x: hidden;position: relative;}
 
 
 .info {
@@ -726,7 +726,7 @@ header {position: relative; z-index: 100;}
 }
 
 .info p {
-  font-size: 17px;
+  font-size: 14px;
   color: rgb(51, 51, 51);
   line-height: 1.529;
   text-align: center;
@@ -907,3 +907,39 @@ footer {
 }
 
 .pr-left {width: 450px;}
+
+
+
+.dva {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 442px;
+  margin-top: 50px;
+}
+.dva::after {
+  content: '';
+  position: absolute;
+  left: -100px;
+  top: 9px;
+  width: 45px;
+  height: 100%;
+  background-position: 0% 0%;
+  background: linear-gradient(to left, rgba(255,255,255,.0), rgba(255,255,255,.8), rgba(255,255,255,.0)) no-repeat -2em 0%;
+  background-size: 45px 115px;
+  transform: skewX(-50deg);
+  transition: 1.5s;
+}
+
+
+.blink_on::after {
+  content: '';
+  left: 500px;
+  width: 564px;
+  height: 100%;
+  background-position: 200% 0%;
+  background: linear-gradient(to left, rgba(255,255,255,.0), rgba(255,255,255,.8), rgba(255,255,255,.0)) no-repeat -2em 0%;
+  transform: skewX(-50deg);
+  background-size: 45px 115px;
+  opacity: 0;
+}

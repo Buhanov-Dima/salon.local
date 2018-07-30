@@ -2,7 +2,12 @@ $(document).ready(function(){
 
 	jQuery.scrollSpeed(100, 800);
 
-
+/*
+    setInterval(function(){
+    $('.dva').addClass('blink_on');
+        setTimeout(function(){$('.dva').removeClass('blink_on')},1500);  
+    },3000)
+*/
 	$(".menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -29,7 +34,15 @@ $(document).ready(function(){
       });
       wow.init();
 	
-});
+
+    var scroll = document.getElementById("maps");
+
+    scroll.addEventListener("mousewheel", function(e) {
+        this.scrollTop -= (e.wheelDeltaY || (e.originalEvent && (e.originalEvent.wheelDeltaY || e.originalEvent.wheelDelta)) || e.wheelDelta || 0);
+        e.stopPropagation();
+        e.preventDefault();
+    });
+    });
 
 $(function () {
     var austDay = new Date(2018, 6-1, 25);
@@ -48,3 +61,4 @@ $(window).scroll(function() {
 	    }
 
     });
+

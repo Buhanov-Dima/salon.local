@@ -1,5 +1,4 @@
 .b1-left {display: flex; margin-top: 0; align-items: center;} .b1-phone {justify-content: center; margin-top: 30px;}
-.b1-f1 {display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 410px; margin: 50px auto 0;}
 .b1-left h1 {margin-left: 25px;} .price-1 {max-width: 265px;} .eye {width: 70%; margin: auto; min-height: 270px; margin-bottom: 30px;} .wrap-eye {flex-wrap: wrap;}
 .bg-woman {display: none;} .bg-sakura {width: 100%; opacity: 0.3;} .usluga {width: 70%; margin: auto;} .uslugi::before, .uslugi::after {display: none;}
 #vetka {top: 49%;} .hair .usluga {width: 45%;} .btn-hidden {bottom: 50px;} .social {margin-left: 0;} .b1-phone {margin-top: 0;}

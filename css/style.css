@@ -245,7 +245,7 @@ header {position: relative; z-index: 100;}
   text-align: center;
   margin-top: 25px;
 }
-.shellac {background: url('/img/main/bg-shellac.jpg') no-repeat right top; margin-top: 70px;}
+.shellac {background: url('/img/main/bg-shellac.jpg') no-repeat right top; margin-top: 70px; padding-bottom: 70px;}
 .timer {
 	margin-top: 40px;
 }
@@ -290,7 +290,6 @@ header {position: relative; z-index: 100;}
 }
 
 .bg-pink {
-	margin-top: 70px;
 	padding: 70px 0 40px;
 }
 .btn-ped {

@@ -83,7 +83,7 @@
 							<img src="/img/logo.png" alt="">
 						</div>
 						<div class="dva">
-							<h1>ASIA BEAUTY SALON</h1>
+							<span class="inner-dva">ASIA BEAUTY SALON</span>
 						</div>
 						<p>салон красоты</p>
 					</div>
@@ -1197,48 +1197,48 @@
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/2.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/3.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/4.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/4.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/5.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/5.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/6.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/6.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/9.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/9.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/14.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/14.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/12.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/12.jpg" alt="">
 						</a>
 					</div>
 					<div class="g-item">
-						<a href="/img/gallery/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/gallery/1.jpg" alt="">
+						<a href="/img/gallery/11.jpg" data-fancybox="gallery" data-caption="Caption #1">
+							<img src="/img/gallery/11.jpg" alt="">
 						</a>
 					</div>
 				</div>
@@ -1303,11 +1303,11 @@
 					<div class="social">
 						<p>Мы в Социальных сетях:</p>
 						<div class="soc-ico">
-							<a href="#"><img src="/img/icons/fb.png" alt=""></a>
+							<!-- <a href="#"><img src="/img/icons/fb.png" alt=""></a>
 							<a href="#"><img src="/img/icons/ok.png" alt=""></a>
 							<a href="#"><img src="/img/icons/vk.png" alt=""></a>
-							<a href="#"><img src="/img/icons/tw.png" alt=""></a>
-							<a href="#"><img src="/img/icons/inst.png" alt=""></a>
+							<a href="#"><img src="/img/icons/tw.png" alt=""></a> -->
+							<a href="https://www.instagram.com/studio_asia/" target="_blank"><img src="/img/icons/inst.png" alt=""></a>
 						</div>
 						<p>Политика конфиденциальности</p>
 					</div>

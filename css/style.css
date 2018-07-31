@@ -16,6 +16,7 @@ a:link {text-decoration: none;}
 button {outline: none; cursor: pointer;}
 button:focus, input:focus {outline: none;}
 input {outline: none;}
+a:link {outline: none;}
 p, h1, h2, h3, h4, h5, h6 {margin: 0; font-family: 'Roboto', sans-serif; font-weight: 500;}
 h3 {font-size: 30px;}
 h1, h2, h3, h4, h5 {}
@@ -701,11 +702,13 @@ header {position: relative; z-index: 100;}
 .hair .maki-p-2 {
 	margin-top: 20px;
 }
-
+.g-item img {width: 100%;}
 .g-item {
 	width: 100%;
 	max-width: 375px;
-	height: 255px;
+	height: 245px;
+  overflow: hidden;
+  margin-bottom: 5px;
 }
 .main-gallery {
 	display: flex;
@@ -910,13 +913,8 @@ footer {
 
 
 
-.dva {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  max-width: 442px;
-  margin-top: 50px;
-}
+
+
 .dva::after {
   content: '';
   position: absolute;
@@ -945,3 +943,96 @@ footer {
 }
 
 .pr-mh .standart-h-wh::before {display: none;}
+
+
+.dva {
+  font-size: 67.307px;
+  background: linear-gradient(90deg, #e1047e 0%, #7e6b9d 51%, #3bb2b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #e1047e;
+  line-height: 1;
+}
+
+.dva{
+  color: #F5C21B;
+  background: linear-gradient(90deg, #e1047e 0%, #7e6b9d 51%, #3bb2b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 67px;
+  font-weight: 900;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.dva::before{
+  background-position: -180px;
+  -webkit-animation: flare 5s infinite;
+  -webkit-animation-timing-function: linear;
+  background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  content: "ASIA BEAUTY SALON";
+  color: #FFF;
+  display: block;
+  position: absolute;
+  width: 600px;
+}
+
+.dva::after{
+  content: "ASIA BEAUTY SALON";
+  color: #FFF;
+  display: block;
+  position: absolute;
+  text-shadow: 0 1px #6E4414, 0 2px #6E4414, 0 3px #6E4414, 0 4px #6E4414, 0 5px #6E4414, 0 6px #6E4414, 0 7px #6E4414, 0 8px #6E4414, 0 9px #6E4414, 0 10px #6E4414;
+  top: 0;
+  z-index: -1;
+}
+
+.inner-dva::after, .inner-dva::before
+{
+    -webkit-animation: sparkle 5s infinite;
+  -webkit-animation-timing-function: linear;
+  background: #FFF;
+  border-radius: 100%;
+  box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 30px #FFF, 0 0 35px #FFF;
+  content: "";
+  display: block;
+  height: 10px;
+  opacity: 0.7;
+  position: absolute;
+  width: 10px;
+}
+
+.inner-dva::before
+{
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+  height: 7px;
+  left: 0.12em;
+  top: 0.8em;
+  width: 7px;
+}
+
+.inner-dva::after
+{
+  top: 0.32em;
+  right: -5px;
+}
+
+@-webkit-keyframes flare
+{
+  0%   { background-position: -180px; }
+  50%  { background-position: 400px; }
+  100% { background-position: 400px; }
+}
+
+@-webkit-keyframes sparkle
+{
+  0%   { opacity: 0; }
+  30%  { opacity: 0; }
+  40%  { opacity: 0.8; }
+  60%  { opacity: 0; }
+  100% { opacity: 0; }
+}

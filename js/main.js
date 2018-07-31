@@ -1,13 +1,6 @@
 $(document).ready(function(){
 
-	jQuery.scrollSpeed(100, 800);
 
-/*
-    setInterval(function(){
-    $('.dva').addClass('blink_on');
-        setTimeout(function(){$('.dva').removeClass('blink_on')},1500);  
-    },3000)
-*/
 	$(".menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -26,39 +19,30 @@ $(document).ready(function(){
 
 
 	wow = new WOW({
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       40,          // default
-        mobile:       false,       // default
-        live:         true        // default
-      });
-      wow.init();
+        boxClass:     'wow',
+        animateClass: 'animated',
+        offset:       40,
+        mobile:       false,
+        live:         true,
+    });
+    wow.init();
 	
 
-    var scroll = document.getElementById("maps");
-
-    scroll.addEventListener("mousewheel", function(e) {
-        this.scrollTop -= (e.wheelDeltaY || (e.originalEvent && (e.originalEvent.wheelDeltaY || e.originalEvent.wheelDelta)) || e.wheelDelta || 0);
-        e.stopPropagation();
-        e.preventDefault();
-    });
-    });
-
-$(function () {
-    var austDay = new Date(2018, 6-1, 25);
-    austDay = new Date(2018, 7-1, 31);
+    var austDay = new Date(2030, 6-1, 25);
     $('#defaultCountdown').countdown({until: austDay});
+
+
 });
 
 $(window).scroll(function() {
 
     var box1 = $('.wrap-menu').offset().top;
          
-	    if(box1 > 60){
-	    $('header').addClass('header-fixed');
-	    } else{
-	    $('header').removeClass('header-fixed');
-	    }
+    if(box1 > 60){
+    $('header').addClass('header-fixed');
+    } else{
+    $('header').removeClass('header-fixed');
+    }
 
-    });
+});
 

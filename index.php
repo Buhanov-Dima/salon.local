@@ -209,24 +209,16 @@
 				</div>
 				<div class="gallery-1">
 					<div class="wrap-gal">
-						<a href="/img/main/g-1.jpg" data-fancybox="gallery" data-caption="Caption #1">
-							<img src="/img/main/g-1.jpg" alt="">
-						</a>
+						<img src="/img/main/g-1.jpg" alt="">
 					</div>
 					<div class="wrap-gal">
-						<a href="/img/main/g-2.jpg" data-fancybox="gallery" data-caption="Caption #2">
-							<img src="/img/main/g-2.jpg" alt="">
-						</a>
+						<img src="/img/main/g-2.jpg" alt="">
 					</div>
 					<div class="wrap-gal">
-						<a href="/img/main/g-3.jpg" data-fancybox="gallery" data-caption="Caption #2">
-							<img src="/img/main/g-3.jpg" alt="">
-						</a>
+						<img src="/img/main/g-3.jpg" alt="">
 					</div>
 					<div class="wrap-gal">
-						<a href="/img/main/g-4.jpg" data-fancybox="gallery" data-caption="Caption #2">
-							<img src="/img/main/g-4.jpg" alt="">
-						</a>
+						<img src="/img/main/g-4.jpg" alt="">
 					</div>
 				</div>
 				<div class="price">
@@ -526,24 +518,16 @@
 					</div>
 					<div class="gallery-1">
 						<div class="wrap-gal">
-							<a href="/img/main/g-5.jpg" data-fancybox="gallery" data-caption="Caption #1">
-								<img src="/img/main/g-5.jpg" alt="">
-							</a>
+							<img src="/img/main/g-5.jpg" alt="">
 						</div>
 						<div class="wrap-gal">
-							<a href="/img/main/g-6.jpg" data-fancybox="gallery" data-caption="Caption #1">
-								<img src="/img/main/g-6.jpg" alt="">
-							</a>
+							<img src="/img/main/g-6.jpg" alt="">
 						</div>
 						<div class="wrap-gal">
-							<a href="/img/main/g-7.jpg" data-fancybox="gallery" data-caption="Caption #1">
-								<img src="/img/main/g-7.jpg" alt="">
-							</a>
+							<img src="/img/main/g-7.jpg" alt="">
 						</div>
 						<div class="wrap-gal">
-							<a href="/img/main/g-8.jpg" data-fancybox="gallery" data-caption="Caption #1">
-								<img src="/img/main/g-8.jpg" alt="">
-							</a>
+							<img src="/img/main/g-8.jpg" alt="">
 						</div>
 					</div>
 					<div class="price pink">
@@ -1252,7 +1236,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<div class="wrap-maps">
-					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaca1a33e32cbd715043d7d6cc499dd086e4d2982b02de5edf4e539db2ed77c94&amp;width=100%25&amp;height=485&amp;lang=ru_RU&amp;scroll=true"></script>
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaca1a33e32cbd715043d7d6cc499dd086e4d2982b02de5edf4e539db2ed77c94&amp;width=100%25&amp;height=485&amp;lang=ru_RU&amp;scroll=false"></script>
 				</div>
 				<div class="wrap-info-map">
 					<div class="info-map">
@@ -1282,7 +1266,6 @@
 							<p><b>Москва, Борисовские пруды, 68</b></p>
 							<p>трц "Браво" 2 этаж</p>
 							<p><b>Режим работы:</b> 10.00 - 22.00</p>
-							<p><b>Телефон:</b> +7(916) 877 04 44</p>
 						</div>
 					</div>
 					<a class="btn-hidden">Показать все салоны на карте</a>

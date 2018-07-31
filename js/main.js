@@ -16,7 +16,50 @@ $(document).ready(function(){
 		$(this).toggleClass('red').siblings('.info-map').slideToggle(0);
 	});
 
+    $('form').on('submit', sendForm);
 
+    function sendForm (e) {
+
+        e.preventDefault();
+        var $form = $(this);
+        var hasError = false;
+        var $nameInput = $form.find('input[name="name"]');
+        var $phoneInput = $form.find('input[name="phone"]');
+        var valPhone = $phoneInput.length > 0 ? $phoneInput.val() : '';
+        var valName = $nameInput.length > 0 ? $nameInput.val() : '';
+
+        if (valPhone == '') {
+            $phoneInput.addClass('invalid_text_field');
+            hasError = true;
+        }
+
+        setTimeout(function(){
+            $form.find('.invalid_text_field').removeClass('invalid_text_field');
+        }, 3000);
+
+        if (hasError) {
+            return false;
+        }
+
+        var obj = {
+            phone: valPhone,
+            name: valName,
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "/mailpost.php",
+            data: obj,
+            contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+            beforeSend: function(){
+            },
+            success: function(html){
+                $phoneInput.val("");
+                $nameInput.val("");
+                $.fancybox.close(true);
+            },
+        });
+    }
 
 	wow = new WOW({
         boxClass:     'wow',

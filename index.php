@@ -516,7 +516,20 @@
 							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 						</div>
 					</div>
-					
+					<div class="gallery-1">
+						<div class="wrap-gal">
+							<img src="/img/main/g-5.jpg" alt="">
+						</div>
+						<div class="wrap-gal">
+							<img src="/img/main/g-6.jpg" alt="">
+						</div>
+						<div class="wrap-gal">
+							<img src="/img/main/g-7.jpg" alt="">
+						</div>
+						<div class="wrap-gal">
+							<img src="/img/main/g-8.jpg" alt="">
+						</div>
+					</div>
 					<div class="price pink">
 						<a class="b1-hiden">Показать прайс-лист</a>
 						<p>Прайс-лист обновлялся 3 дня назад</p>

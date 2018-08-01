@@ -91,8 +91,8 @@
 				<div class="col-xl-4">
 					<div class="b1-right">
 						<div class="b1-phone">
-							<a href="#"><img src="/img/icons/watsapp.png" alt=""></a>
-							<a href="#"><img src="/img/icons/viber.png" alt=""></a>
+							<img src="/img/icons/watsapp.png" alt="">
+							<img src="/img/icons/viber.png" alt="">
 							<div class="phone">
 								<p> +7 (916) <b>877 04 44</b></p>
 								<span>Ежедневно с 10:00 до 20:00</span>
@@ -1282,8 +1282,8 @@
 						<p>Политика конфиденциальности</p>
 					</div>
 					<div class="b1-phone">
-						<a href="#"><img src="/img/icons/watsapp.png" alt=""></a>
-						<a href="#"><img src="/img/icons/viber.png" alt=""></a>
+						<img src="/img/icons/watsapp.png" alt="">
+						<img src="/img/icons/viber.png" alt="">
 						<div class="phone">
 							<p> +7 (916) <b>877 04 44</b></p>
 							<span>Ежедневно с 10:00 до 20:00</span>

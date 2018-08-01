@@ -2,4 +2,5 @@
 .bg-hands {height: 400px;} .bg-flowers {background-size: 250px;}
 .bg-legs {background-size: 550px;} .bg-konsul-1 {max-width: 450px;} .bg-konsul-2 {left: 260px;}
 #vetka {width: 320px; top: 38%;} #maki {padding-bottom: 50px;}
-.bg-woman {width: 434px; height: 473px;} .g-item {max-width: 250px;}
+.bg-woman {width: 434px; height: 473px;} .g-item {max-width: 250px;} .g-item {max-height: 165px;}
+.main-gallery {justify-content: space-around;}

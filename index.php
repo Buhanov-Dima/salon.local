@@ -516,20 +516,7 @@
 							<button data-fancybox data-src="#popup" href="javascript:;" class="btn-tsp">Записаться</button>
 						</div>
 					</div>
-					<div class="gallery-1">
-						<div class="wrap-gal">
-							<img src="/img/main/g-5.jpg" alt="">
-						</div>
-						<div class="wrap-gal">
-							<img src="/img/main/g-6.jpg" alt="">
-						</div>
-						<div class="wrap-gal">
-							<img src="/img/main/g-7.jpg" alt="">
-						</div>
-						<div class="wrap-gal">
-							<img src="/img/main/g-8.jpg" alt="">
-						</div>
-					</div>
+					
 					<div class="price pink">
 						<a class="b1-hiden">Показать прайс-лист</a>
 						<p>Прайс-лист обновлялся 3 дня назад</p>
@@ -1268,7 +1255,7 @@
 							<p><b>Режим работы:</b> 10.00 - 22.00</p>
 						</div>
 					</div>
-					<a class="btn-hidden">Показать все салоны на карте</a>
+					<a href="javascript:;" class="btn-hidden">Показать все салоны на карте</a>
 				</div>
 			</div>
 		</div>
@@ -1320,6 +1307,13 @@
 	</div>
 </div>
 
+<div id="popup-thanks" class="card" style="display: none;">
+	<div class="b2-thanks">
+			<h2 data-selectable="true">Спасибо за ваш звонок!</h2>
+			<p data-selectable="true">мы перезвоним вам в течении 10 минут</p>
+		</form>
+	</div>
+</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

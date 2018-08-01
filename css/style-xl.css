@@ -3,4 +3,4 @@
 .bg-woman {display: none;} .bg-sakura {width: 100%; opacity: 0.3;} .usluga {width: 70%; margin: auto;} .uslugi::before, .uslugi::after {display: none;}
 #vetka {top: 49%;} .hair .usluga {width: 45%;} .btn-hidden {bottom: 50px;} .social {margin-left: 0;} .b1-phone {margin-top: 0;}
 .bg-paporotnik {width: 300px;} .wrap-menu {display: none;} 
-.navbar {display: flex;} .wrap-menu {display: none;} .pr-left {width: auto;}
+.navbar {display: flex;} .wrap-menu {display: none;} .pr-left {width: auto;} .usluga span:nth-child(4) {display: block; width: 100%;}

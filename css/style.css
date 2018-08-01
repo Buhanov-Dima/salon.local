@@ -1038,3 +1038,10 @@ footer {
   60%  { opacity: 0; }
   100% { opacity: 0; }
 }
+
+#popup-thanks {
+  background: linear-gradient(#ffffff 6%, #ff99d5 86%); 
+  border: none;
+  text-align: center;
+  padding-right: 35px;
+}
